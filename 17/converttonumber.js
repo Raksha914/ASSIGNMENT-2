@@ -24,4 +24,4 @@ if (num === num1) {
 } else {
   console.log("Number is not equal to parseInt and parseFloat");
 }
-// Number is equal to parsefloats
+// Number and parsefloat are same
