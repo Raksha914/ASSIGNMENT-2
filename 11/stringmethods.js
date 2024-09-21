@@ -31,10 +31,10 @@ console.log(extractedportion); // important for effective web development
 console.log(sentence.charAt(10)); //a extract the charecter at index 10
 console.log(sentence.charAt(0)); //l  extract the charecter at index 10
 
-//lastIndexOf
-let lastIndex = sentence.lastIndexOf("important"); // find the last occurrence of a specified word
-let extractedLastIndex = sentence.slice(lastIndex); // extract the portion of the string from lastindex
-console.log(extractedLastIndex); //important for effective web development
+//IndexOf
+let index = sentence.indexOf("important"); // find the occurrence of a specified word
+let extractedIndex = sentence.slice(index); // extract the portion of the string from lastindex
+console.log(extractedIndex); //important for effective web development
 
 //includes
 let wordExists = sentence.includes("method"); // we need to check if mentioned word is there in sentence
