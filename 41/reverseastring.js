@@ -9,4 +9,4 @@ function reverseString(str) {
   }
   return reverse;
 }
-console.log(reverseString(words));
+console.log(reverseString(words)); //  tpircsavaJ ot emocleW ,olleH
