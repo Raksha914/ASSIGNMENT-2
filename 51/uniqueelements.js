@@ -6,10 +6,11 @@ function uniqueElements(arr) {
   let unique = [];
   for (let i = 0; i < arr.length; i++) {
     if (unique.indexOf(arr[i]) === -1) {
+      //Check if the element is not already in the uniqueArray
       unique.push(arr[i]);
     }
   }
   return unique;
 }
 let uniqueArray = uniqueElements(number);
-console.log(uniqueArray);
+console.log(uniqueArray); // [1, 2, 3, 4, 5, 6]
