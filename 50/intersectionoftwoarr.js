@@ -7,6 +7,7 @@ function intersectionOfArr(arr1, arr2) {
   let intersection = [];
   for (let i = 0; i < arr1.length; i++) {
     if (arr2.includes(arr1[i])) {
+      // checks if the element present in second array
       intersection.push(arr1[i]);
     }
   }
